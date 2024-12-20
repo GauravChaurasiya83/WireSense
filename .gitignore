@@ -1,0 +1,5 @@
+*.pkl
+*.csv
+*.json
+db.sqlite3
+*.tar
