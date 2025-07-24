@@ -24,9 +24,9 @@ async def ws_server(websocket):
             # Sending a response back to the client
             age=20
             if int(age) < 18:
-                await websocket.send(f"Sorry! lawda, You can't join the club.")
+                await websocket.send(f"Sorry!, You can't join the club.")
             else:
-                await websocket.send(f"Welcome aboard, lawda.")
+                await websocket.send(f"Welcome aboard.")
  
     except websockets.ConnectionClosedError:
         print("Internal Server Error.")
